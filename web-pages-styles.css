@@ -5,6 +5,7 @@
 body{
     padding:0px;
     margin:0px;
+    background-color: grey;
 }
 
 .wrapper{
@@ -16,7 +17,8 @@ body{
 .header{
     background-color: grey;
     height: 90px;
-    width: auto;
+    width: 94%;
+    margin:auto;
     padding-top:10px;
 }
 
@@ -61,11 +63,14 @@ body{
 
 
 .center-main-wrapper{
-    height: 800px;
+    /* height: 800px; */
     /* border:solid 2px blue; */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom:50px;
+    padding-top: 40px;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 50px; */
+    width: 94%;
+    margin: auto;
+    background-color: white;
     /* padding-left: 10px;
     padding-right: 10px; */
 }
@@ -105,8 +110,8 @@ body{
 .center-footer-wrapper{
     /* border: solid 2px blue; */
     /* height: 600px; */
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /* padding-top: 5px; */
+    padding-bottom: 20px;
 }
 
 .center-footer-heading{
@@ -174,15 +179,25 @@ body{
 }
 
 .footer-text-1{
-    font-size:15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 3px;
+}
+
+.footer-text-2{
+    font-size: 15px;
     text-transform: uppercase;
     color:white;
+    margin-right: 10px;
 }
+
 
 .center-line{
     height: 2px;
 }
 
-.center{
-    
+.footer{
+    width: 94%;
+    margin: auto;
 }

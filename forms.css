@@ -83,7 +83,7 @@
     /* border: 2px solid grey;
     border-radius: 5px;
     padding: 2px 8px; */
-    width: 100%;
+    width: 70%;
     padding: 8px;
     border: 2px solid grey;
     border-radius: 4px;
@@ -167,4 +167,35 @@
     color: white;
     font-weight: 500;
     font-size: 14px;
+}
+
+.att-input-class{
+    width: 70%;
+    padding: 8px;
+    /* border: 2px solid grey; */
+    border-top: solid 3px grey;
+    border-bottom: solid 3px grey;
+    border-left: solid 3px grey;
+    border-right: solid 0px grey;
+    border-radius: 4px 0px 0px 4px;
+    resize: vertical;
+    margin-top: 2px;
+    margin-bottom: 5px;  
+    /* pointer-events: none;   */
+}
+
+.att-button{
+    padding: 6px 9px;
+    background-color: #009E60;
+    border-radius: 0px 4px 4px 0px;
+    border-top: solid 3px grey;
+    border-bottom: solid 3px grey;
+    border-left: solid 0px grey;
+    border-right: solid 3px grey;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    width: 30%;
+    margin-left: -4px;
+    height: 37px;
 }
